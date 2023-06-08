@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    align-items: center;
+}
+
+.card-img-top {
+    /*width:  80px;*/
+    height: 45%;
+    background-size: cover;
+}
+
+.card {
+    transition: transform 0.3s;
+  }
+  
+.card:hover {
+    transform: scale(1.05);
+}

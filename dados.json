@@ -1,0 +1,804 @@
+{
+  "cadastro": {
+    "NOME": "STRING",
+    "email": "string",
+    "senha": "string",
+    "idade": "int",
+    "cpf": "float",
+    "numeroCel": "int"
+  },
+  "foodtrucks": [
+    {
+      "idPlace":"localA",
+      "nome": "Viva Açaí",
+      "imagem":"img/cards/1.png",
+      "descricaolocal":"Pão de queijo, açaí e diversas vitaminas para você se refrescar",
+      "endereco": "Rua Alagoas, 777",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Açaí",
+          "descricao": "açaí tradicional com acompanhamentos",
+          "preco": 17
+        },
+        {
+          "produto": "Vitamina",
+          "descricao": "Variados sabores para uma vitamina perfeita",
+          "preco": 13
+        },
+        {
+          "produto": "Vitamina de banana",
+          "descricao": "Vitamina de banana com leite e aveia",
+          "preco": 13
+        },
+        {
+          "produto": "Suco de laranja",
+          "descricao": "Suco natural de laranja",
+          "preco": 7
+        },
+        {
+          "produto": "Sanduiche natural",
+          "descricao": "Pão integral com recheio de frango, alface e tomate",
+          "preco": 15
+        },
+        {
+          "produto": "Pão de queijo",
+          "descricao": "Delicioso pão de queijo feito com queijo minas.",
+          "preco": 1.50
+        },
+        {
+          "produto": "Salada de frutas",
+          "descricao": "Mix de frutas frescas da estação",
+          "preco": 10
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Lata 500ml",
+          "preco": 5
+        },
+        {
+          "produto": "Água",
+          "descricao": "Água mineral",
+          "preco": 4
+        }
+      ]
+    },
+    { 
+      "idPlace":"localB",
+      "nome": "Prensadão Burguer 4",
+      "imagem":"img/cards/2.png",
+      "descricaolocal":"Sabor e tradição desde 2001",
+      "endereco": "Prédio 4 PUC - Rua Cláudio Manoel, 1162",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Prensadão com hamburguer",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry e hamburguer",
+          "preco": 12
+        },
+        {
+          "produto": "Prensadão com hamburguer e ovo",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, ovo e hamburguer",
+          "preco": 14
+        },
+        {
+          "produto": "Prensadão com hamburguer e bacon",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, bacon e hamburguer",
+          "preco": 16
+        },
+        {
+          "produto": "Prensadão com hamburguer bacon e ovo",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, bacon, ovo e hamburguer",
+          "preco": 20
+        },
+        {
+          "produto": "Prensadão picanha",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, picanha e hamburguer",
+          "preco": 25
+        },
+        {
+          "produto": "Prensadão turbinado",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, hamburguer de boi, hamburguer de picanha, ovo e bacon",
+          "preco": 30
+        },
+        {
+          "produto": "Pão com pernil",
+          "descricao": "Pão, pernil, tomate, cebola, pimentão, molho alho, molho shoyo",
+          "preco": 15
+        },
+        {
+          "produto": "Cachorro quente",
+          "descricao": "Pão, salsicha, milho, mussarela, batata, passas",
+          "preco": 10
+        },
+        {
+          "produto": "Misto quente",
+          "descricao": "Pão, presunto e queijo",
+          "preco": 7
+        },
+        {
+          "produto": "Espaguete na chapa",
+          "descricao": "Espaguete",
+          "preco": 20
+        },
+        {
+          "produto": "Pão de queijo",
+          "descricao": "Delicioso pão de queijo",
+          "preco": 2.50
+        },
+        {
+          "produto": "Coxinha",
+          "descricao": "Coxinha de frango",
+          "preco": 6
+        },
+        {
+          "produto": "Água",
+          "descricao": "Água mineral",
+          "preco": 4
+        },
+        {
+          "produto": "Café",
+          "descricao": "Café quente",
+          "preco": 2
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Diversos sabores de refrigerantes",
+          "preco": 4.50
+        }
+      ]
+    },
+    {
+      "idPlace":"localC",
+      "nome": "LD Cakes",
+      "imagem":"img/cards/3.png",
+      "descricaolocal":"Sanduíches, salgados e doces",
+      "endereco": "Prédio 1 PUC - Av. Brasil, 2023",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Pão de queijo",
+          "descricao": "Delicioso pão de queijo mineiro",
+          "preco": 2.50
+        },
+        {
+          "produto": "Pão de queijo recheado",
+          "descricao": "Pão de queijo com variadas opções de recheio",
+          "preco": 5
+        },  
+        {
+          "produto": "Pão de queijo completo",
+          "descricao": "Pão de queijo completo",
+          "preco": 6
+        },  
+        {
+          "produto": "Pão de queijo turbinado",
+          "descricao": "Pão de queijo turbinado",
+          "preco": 7
+        },  
+        {
+          "produto": "Misto",
+          "descricao": "Pão, presunto e mussarela",
+          "preco": 5
+        },
+        {
+          "produto": "Misto com catupiry",
+          "descricao": "Pão, presunto, mussarela e catupiry",
+          "preco": 7
+        },
+        {
+          "produto": "Misto com ovo",
+          "descricao": "Pão, presunto, mussarela, catupiry e ovo",
+          "preco": 7
+        },
+        {
+          "produto": "Misto com bacon",
+          "descricao": "Pão, presunto, mussarela, catupiry e bacon",
+          "preco": 7
+        },
+        {
+          "produto": "Misto turbinado",
+          "descricao": "Pão, presunto, mussarela, catupiry, ovo e bacon",
+          "preco": 8
+        },
+        {
+          "produto": "Omelete pequeno",
+          "descricao": "Presunto, mussarela, 2 ovos e orégano",
+          "preco": 7
+        },
+        {
+          "produto": "Omelete grande",
+          "descricao": "Presunto, mussarela, 3 ovos e orégano",
+          "preco": 10
+        },
+        {
+          "produto": "Coxinha",
+          "descricao": "Coxinha de frango",
+          "preco": 5.5
+        },
+        {
+          "produto": "Coxinha com catupiry",
+          "descricao": "Coxinha de frango com catupiry",
+          "preco": 6.5
+        },
+        {
+          "produto": "Empada",
+          "descricao": "Empada de frango",
+          "preco": 5.5
+        },
+        {
+          "produto": "Enrolado",
+          "descricao": "Enrolado de salsicha",
+          "preco": 5.5
+        },
+        {
+          "produto": "Esfirra",
+          "descricao": "Esfirra de carne",
+          "preco": 5.5
+        },
+        {
+          "produto": "Hamburgão",
+          "descricao": "Pão e carne",
+          "preco": 8
+        },
+        {
+          "produto": "Pastel assado",
+          "descricao": "Pastel assado - diversos sabores",
+          "preco": 5.5
+        },
+        {
+          "produto": "Pão de batata com catupiry",
+          "descricao": "Pão de batata com catupiry",
+          "preco": 6.5
+        },
+        {
+          "produto": "Tortinha de frango com catupiry",
+          "descricao": "Tortinha de frango com catupiry",
+          "preco": 7
+        },
+        {
+          "produto": "Hot dog",
+          "descricao": "Pão e salsicha",
+          "preco": 8
+        },
+        {
+          "produto": "Hot dog com catupiry",
+          "descricao": "Pão, salsicha e catupiry",
+          "preco": 9
+        },
+        {
+          "produto": "Hot dog com bacon",
+          "descricao": "Pão, salsicha e bacon",
+          "preco": 9
+        },
+        {
+          "produto": "Hot dog turbinado",
+          "descricao": "Hot dog completo",
+          "preco": 10
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Lata 350ml",
+          "preco": 6
+        },
+        {
+          "produto": "Água",
+          "descricao": "Água mineral",
+          "preco": 3
+        },
+        {
+          "produto": "Água com gás",
+          "descricao": "Água mineral com gás",
+          "preco": 3.5
+        },
+        {
+          "produto": "Café",
+          "descricao": "Café",
+          "preco": 2
+        }
+      ]
+    },
+    {
+      "idPlace":"localD",
+      "nome": "Papaya",
+      "imagem":"img/cards/4.png",
+      "descricaolocal":"Sucos, lanches e açaí",
+      "endereco": "Rua Alagoas, 752",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Frutas frescas",
+          "descricao": "Seleção de frutas da estação, como melancia, melão, uvas, morangos e kiwi.",
+          "preco": 7
+        },
+        {
+          "produto": "Vitamina de abacate",
+          "descricao": "Abacate batido com leite vegetal, mel e sementes de chia.",
+          "preco": 8
+        },
+        {
+          "produto": "Vitamina de frutas",
+          "descricao": "Morangos, mamão, banana, abacate,  batidos com iogurte natural e mel.",
+          "preco": 9
+        },
+        {
+          "produto": "Suco detox",
+          "descricao": "Combinação de couve, maçã, gengibre e limão, rico em antioxidantes.",
+          "preco": 6
+        },
+        {
+          "produto": "Açaí",
+          "descricao": "Açaí cremoso e natural, perfeito para energizar o seu dia.",
+          "preco": 10
+        },
+        {
+          "produto": "Açaí com granola",
+          "descricao": "Açaí acompanhado de uma deliciosa granola crocante.",
+          "preco": 12
+        },
+        {
+          "produto": "Açaí com frutas",
+          "descricao": "Açaí com uma seleção de frutas frescas e saborosas.",
+          "preco": 15
+        },
+        {
+          "produto": "Smoothie de açaí",
+          "descricao": "Smoothie refrescante de açaí batido com frutas e gelo.",
+          "preco": 8
+        },
+        {
+          "produto": "Tigela tropical",
+          "descricao": "Açaí com pedaços de frutas tropicais, coco ralado e mel.",
+          "preco": 14
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Lata 500ml",
+          "preco": 5
+        },
+        {
+          "produto": "Água",
+          "descricao": "Água mineral",
+          "preco": 4
+        }
+      ]
+    },
+    {
+      "idPlace":"localE",
+      "nome": "Pão do Padre",
+      "imagem":"img/cards/5.png",
+      "descricaolocal":"Padaria, lanches, bebidas",
+      "endereco": "Rua Alagoas, 750",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Pão de queijo",
+          "descricao": "Delicioso pão de queijo feito com queijo minas.",
+          "preco": 3
+        },
+        {
+          "produto": "Coxinha",
+          "descricao": "Massa frita com frango desfiado e temperos.",
+          "preco": 3
+        },
+        {
+          "produto": "Pastel",
+          "descricao": "Massa crocante recheada com queijo e presunto. Consultar disponibilidade de outros sabores.",
+          "preco": 2
+        },
+        {
+          "produto": "Empada",
+          "descricao": "Massa delicada recheada com frango desfiado e catupiry.",
+          "preco": 2
+        },
+        {
+          "produto": "Torta salgada",
+          "descricao": "Torta assada com recheio de frango, palmito e queijo.",
+          "preco": 12
+        },
+        {
+          "produto": "Torta doce",
+          "descricao": "Torta doce com recheio de morango fresco e creme.",
+          "preco": 10
+        },
+        {
+          "produto": "Hamburguer",
+          "descricao": "Pão, carne, queijo, molho e alface",
+          "preco": 11
+        },
+        {
+          "produto": "Pizza",
+          "descricao": "Massa, molho de tomate, queijo, orégano, azeite e azeitona",
+          "preco": 10
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Lata de refrigerante de cola.",
+          "preco": 5
+        },
+        {
+          "produto": "Suco natural",
+          "descricao": "Suco natural de laranja fresca.",
+          "preco": 6
+        },
+        {
+          "produto": "Café",
+          "descricao": "Café expresso puro.",
+          "preco": 3
+        },
+        {
+          "produto": "Esfirra",
+          "descricao": "Esfiha aberta com recheio de carne temperada.",
+          "preco": 4
+        },
+        {
+          "produto": "Bolo",
+          "descricao": "Diversos sabores de bolos caseiros. Consultar disponibilidade no estabelecimento",
+          "preco": 7
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Lata 500ml",
+          "preco": 5
+        },
+        {
+          "produto": "Água",
+          "descricao": "Água mineral",
+          "preco": 4
+        }
+      ]
+    },
+    {
+      "idPlace":"localF",
+      "nome": "Rei do Pastel",
+      "imagem":"img/cards/6.png",
+      "descricaolocal":"Pastéis e salgados",
+      "endereco": "R. Tomé de Souza, 935",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Pão de queijo",
+          "descricao": "Delicioso pão de queijo feito com queijo minas.",
+          "preco": 3
+        },
+        {
+          "produto": "Coxinha",
+          "descricao": "Massa frita com frango desfiado e temperos.",
+          "preco": 3
+        },
+        {
+          "produto": "Pastel",
+          "descricao": "Massa crocante recheada com queijo e presunto. Consultar disponibilidade de outros sabores.",
+          "preco": 2
+        },
+        {
+          "produto": "Empada",
+          "descricao": "Massa delicada recheada com frango desfiado e catupiry.",
+          "preco": 2
+        },
+        {
+          "produto": "Torta salgada",
+          "descricao": "Torta assada com recheio de frango, palmito e queijo.",
+          "preco": 12
+        },
+        {
+          "produto": "Torta doce",
+          "descricao": "Torta doce com recheio de morango fresco e creme.",
+          "preco": 10
+        },
+        {
+          "produto": "Hamburguer",
+          "descricao": "Pão, carne, queijo, molho e alface",
+          "preco": 11
+        },
+        {
+          "produto": "Pizza",
+          "descricao": "Massa, molho de tomate, queijo, orégano, azeite e azeitona",
+          "preco": 10
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Lata de refrigerante de cola.",
+          "preco": 5
+        },
+        {
+          "produto": "Suco natural",
+          "descricao": "Suco natural de laranja fresca.",
+          "preco": 6
+        },
+        {
+          "produto": "Café",
+          "descricao": "Café expresso puro.",
+          "preco": 3
+        },
+        {
+          "produto": "Esfirra",
+          "descricao": "Esfiha aberta com recheio de carne temperada.",
+          "preco": 4
+        },
+        {
+          "produto": "Bolo",
+          "descricao": "Diversos sabores de bolos caseiros. Consultar disponibilidade no estabelecimento",
+          "preco": 7
+        },
+        {
+          "produto": "Água",
+          "descricao": "Água mineral",
+          "preco": 4
+        }
+      ]
+    },
+    {
+      "idPlace":"localG",
+      "nome": "Prensadão Burguer 5",
+      "imagem":"img/cards/7.png",
+      "descricaolocal":"Sabor e tradição desde 2001",
+      "endereco": "Prédio 5 PUC - Rua Santa Rita Durão, 1160",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Prensadão com hamburguer",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry e hamburguer",
+          "preco": 12
+        },
+        {
+          "produto": "Prensadão com hamburguer e ovo",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, ovo e hamburguer",
+          "preco": 14
+        },
+        {
+          "produto": "Prensadão com hamburguer e bacon",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, bacon e hamburguer",
+          "preco": 16
+        },
+        {
+          "produto": "Prensadão com hamburguer bacon e ovo",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, bacon, ovo e hamburguer",
+          "preco": 20
+        },
+        {
+          "produto": "Prensadão picanha",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, picanha e hamburguer",
+          "preco": 25
+        },
+        {
+          "produto": "Prensadão turbinado",
+          "descricao": "Pão, presunto, mussarela, milho, batata, passas, catupiry, hamburguer de boi, hamburguer de picanha, ovo e bacon",
+          "preco": 30
+        },
+        {
+          "produto": "Pão com pernil",
+          "descricao": "Pão, pernil, tomate, cebola, pimentão, molho alho, molho shoyo",
+          "preco": 15
+        },
+        {
+          "produto": "Cachorro quente",
+          "descricao": "Pão, salsicha, milho, mussarela, batata, passas",
+          "preco": 10
+        },
+        {
+          "produto": "Misto quente",
+          "descricao": "Pão, presunto e queijo",
+          "preco": 7
+        },
+        {
+          "produto": "Espaguete na chapa",
+          "descricao": "Espaguete",
+          "preco": 20
+        },
+        {
+          "produto": "Pão de queijo",
+          "descricao": "Delicioso pão de queijo",
+          "preco": 2.50
+        },
+        {
+          "produto": "Coxinha",
+          "descricao": "Coxinha de frango",
+          "preco": 6
+        },
+        {
+          "produto": "Água",
+          "descricao": "Água mineral",
+          "preco": 4
+        },
+        {
+          "produto": "Café",
+          "descricao": "Café quente",
+          "preco": 2
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Diversos sabores de refrigerantes",
+          "preco": 4.50
+        }
+      ]
+    },
+    {
+      "idPlace":"localH",
+      "nome": "Cia da Empada",
+      "imagem":"img/cards/8.png",
+      "descricaolocal":"Variadas e deliciosas empadas",
+      "endereco": "Rua Sergipe, 780 - ao lado do Prédio 1 PUC",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Pão de queijo",
+          "descricao": "Delicioso pão de queijo feito com queijo minas.",
+          "preco": 3
+        },
+        {
+          "produto": "Coxinha",
+          "descricao": "Massa frita com frango desfiado e temperos.",
+          "preco": 3
+        },
+        {
+          "produto": "Pastel",
+          "descricao": "Massa crocante recheada com queijo e presunto. Consultar disponibilidade de outros sabores.",
+          "preco": 5
+        },
+        {
+          "produto": "Empada tradicional",
+          "descricao": "Massa delicada recheada com frango desfiado e catupiry.",
+          "preco": 5
+        },
+        {
+          "produto": "Empada de carne",
+          "descricao": "Massa delicada recheada com carne desfiada e catupiry.",
+          "preco": 5
+        },
+        {
+          "produto": "Empada de leite condensado",
+          "descricao": "Massa delicada recheada com leite condensado.",
+          "preco": 5
+        },
+        {
+          "produto": "Empada de palmito",
+          "descricao": "Massa delicada recheada com palmito e catupiry.",
+          "preco": 5
+        },
+        {
+          "produto": "Torta salgada",
+          "descricao": "Torta assada com recheio de frango, palmito e queijo.",
+          "preco": 12
+        },
+        {
+          "produto": "Torta doce",
+          "descricao": "Torta doce com recheio de morango fresco e creme.",
+          "preco": 10
+        },
+        {
+          "produto": "Hamburguer",
+          "descricao": "Pão, carne, queijo, molho e alface",
+          "preco": 11
+        },
+        {
+          "produto": "Pizza",
+          "descricao": "Massa, molho de tomate, queijo, orégano, azeite e azeitona",
+          "preco": 10
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Lata de refrigerante de cola.",
+          "preco": 5
+        },
+        {
+          "produto": "Suco natural",
+          "descricao": "Suco natural de laranja fresca.",
+          "preco": 6
+        },
+        {
+          "produto": "Café",
+          "descricao": "Café expresso puro.",
+          "preco": 3
+        },
+        {
+          "produto": "Esfirra",
+          "descricao": "Esfiha aberta com recheio de carne temperada.",
+          "preco": 4
+        },
+        {
+          "produto": "Bolo",
+          "descricao": "Diversos sabores de bolos caseiros. Consultar disponibilidade no estabelecimento",
+          "preco": 7
+        },
+        {
+          "produto": "Água",
+          "descricao": "água mineral",
+          "preco": 4
+        },
+        {
+          "produto": "Café",
+          "descricao": "Café",
+          "preco": 1.99
+        }
+      ]
+    },
+    {
+      "idPlace":"localI",
+      "nome": "Cantina da PUC",
+      "imagem":"img/cards/9.png",
+      "descricaolocal":"Salgados, sucos, vitaminas e açaí",
+      "endereco": "Dentro do Prédio 4 PUC - Rua Cláudio Manoel, 1162",
+      "contaBanco": "string",
+      "telefone": "int",
+      "cnpj": "string",
+      "predio": "int",
+      "cardapio": [
+        {
+          "produto": "Pão de queijo",
+          "descricao": "Pão de queijo",
+          "preco": 3.50
+        },
+        {
+          "produto": "Coxinha de frango",
+          "descricao": "Coxinha de frango",
+          "preco": 6.49
+        },
+        {
+          "produto": "Coxinha de frango com catupiry",
+          "descricao": "Coxinha de frango com catupiry",
+          "preco": 6.49
+        },
+        {
+          "produto": "Pastel assado",
+          "descricao": "Pastel assado",
+          "preco": 6.49
+        },
+        {
+          "produto": "Esfirra",
+          "descricao": "Esfirra",
+          "preco": 6.49
+        },
+        {
+          "produto": "Empada",
+          "descricao": "Empada - diversos sabores",
+          "preco": 5.99
+        },
+        {
+          "produto": "Folhado",
+          "descricao": "Folhado - diversos sabores",
+          "preco": 6.49
+        },
+        {
+          "produto": "Refrigerante",
+          "descricao": "Lata 500ml",
+          "preco": 5.75
+        },
+        {
+          "produto": "Água",
+          "descricao": "Água mineral",
+          "preco": 3.99
+        },
+        {
+          "produto": "Café",
+          "descricao": "Café",
+          "preco": 1.99
+        }
+      ]
+    }
+  ]
+} 
